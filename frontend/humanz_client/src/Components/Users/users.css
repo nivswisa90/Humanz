@@ -1,0 +1,31 @@
+.box {
+  border: 3px solid black;
+  width: 50vh;
+  height: 25vh;
+  align-content: center;
+  position: absolute;
+  right: 75vh;
+  top: 15vh;
+}
+.search_button {
+  position: relative;
+  top: 5vh;
+  left: 8vh;
+}
+.search_field {
+  position: relative;
+  left: 5vh;
+  top: 3vh;
+}
+.exsit_button {
+  position: relative;
+  top:5vh;
+  left:5vh;
+}
+.table{
+  position: absolute;
+  top:30vh;
+}
+.table_title{
+  position: relative;
+}

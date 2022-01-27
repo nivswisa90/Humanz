@@ -8,7 +8,7 @@
 - [Contact](#contact)
 
 
-# About - 
+# About 
 This project is a Web application for client's managment, you can perfome API action such as: 
 - Add client
 - Delete client

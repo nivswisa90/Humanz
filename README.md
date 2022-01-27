@@ -1,3 +1,7 @@
+<h1 align="center">
+  <br>
+  <p align="center"><img width=70% src="./media/background.png"></p>
+</h1>
 # Humanz
 # Table of contents
 - [Table of contents](#table-of-contents)

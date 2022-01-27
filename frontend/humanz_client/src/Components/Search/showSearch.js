@@ -1,15 +1,9 @@
 import React from "react";
-import "./users.css";
 
-
-
-const UserList = (allUsers, userByName) => {
-// const user = Object.entries(userByName);
-  // Creating list of the users
-const userlist = Object.entries(allUsers);
-
+const ShowSearch = (userByName) => {
+  const userByNameList = Object.entries(userByName);
   const renderTableData = () => {
-    return userlist[0][1].map((user, index) => {
+    return userByNameList[0][1].map((user, index) => {
       const { name, id, ip, phone } = user; //destructuring
       return (
         <tr key={id}>
@@ -30,4 +24,4 @@ const userlist = Object.entries(allUsers);
     </div>
   );
 };
-export default UserList;
+export default ShowSearch;

@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import AllRoutes from "./Router/allRoutes";
+import ReactRouter from "./Router/allRoutes";
 
 // Material UI imports
 import "@fontsource/roboto/400.css";
@@ -8,7 +8,7 @@ import "@fontsource/roboto/400.css";
 const App = () => {
   return (
     <div className="backgroundImage">
-      <AllRoutes />
+      <ReactRouter />
     </div>
   );
 };

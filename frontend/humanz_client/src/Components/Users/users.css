@@ -19,13 +19,47 @@
 }
 .exsit_button {
   position: relative;
-  top:5vh;
-  left:5vh;
+  top: 5vh;
+  left: 5vh;
 }
-.table{
+.table {
   position: absolute;
-  top:30vh;
+  top: 60vh;
+  border-color: black;
 }
-.table_title{
+.table_title {
   position: relative;
 }
+.close_button {
+  position: relative;
+  left: 15vh;
+}
+
+.add_user_form {
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 60vh;
+  height: 60vh;
+  position: absolute;
+  left: 50vh;
+  top: 50vh;
+}
+.add_title {
+  padding-top: 5px;
+  font: 2em sans-serif;
+  right: 4vh;
+  position: relative;
+}
+.mb-3 {
+  position: relative;
+  left: 1vh;
+}
+.samller_input {
+  font-size: 10px;
+  /* padding: 2px 5px; */
+  width: 40vh;
+}
+.sub_title_form {
+  font-size: 30px;
+}
+

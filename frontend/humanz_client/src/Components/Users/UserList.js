@@ -3,8 +3,7 @@ import "./users.css";
 
 
 
-const UserList = (allUsers, userByName) => {
-// const user = Object.entries(userByName);
+const UserList = (allUsers) => {
   // Creating list of the users
 const userlist = Object.entries(allUsers);
 
